@@ -5,11 +5,11 @@ An employee opens a confidential work email, copies
 the text, opens personal WhatsApp and sends it to 
 a competitor.
 
-Without DLP controls — this happens silently with 
+Without DLP controls this happens silently with 
 no trace.
 
 ## Threat
-**Cross-profile data leakage** — corporate data 
+**Cross-profile data leakage**: corporate data 
 moving from the secured work profile into the 
 unsecured personal profile through the clipboard.
 
@@ -47,7 +47,7 @@ policies within a BYOD environment to sandbox corporate
 data and restrict cross-profile data leakage."*
 
 ## Lesson Learned
-DLP is not one setting — it is a layered strategy. 
+DLP is not one setting it is a layered strategy. 
 This clipboard restriction is Layer 1. Without it, 
 every other security control can be bypassed in 
 seconds by copy and paste.
