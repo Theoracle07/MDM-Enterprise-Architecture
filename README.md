@@ -7,7 +7,7 @@ Mobile Device Management framework simulated across 3 real
 Android devices using ManageEngine Mobile Device Manager Plus 
 (Cloud).
 
-The goal was not just to configure a tool — but to solve real 
+The goal was not just to configure a tool but to solve real 
 enterprise security problems that IT administrators face daily 
 when managing corporate and personal mobile devices.
 
