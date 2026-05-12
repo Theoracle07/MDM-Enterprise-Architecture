@@ -134,15 +134,15 @@ should use COPE not BYOD
 
 ## Repository Structure
 MDM-Policy-Implementation/
-├── README.md
-├── 01-enrollment-configuration/
-├── 02-BYOD-android-enterprise/
-├── 03-DLP-policy/
-├── 04-analog-hole-solutions/
-├── 05-managed-google-play/
-├── 06-dynamic-grouping/
-├── 07-COPE-vs-BYOD/
-└── screenshots/
+ - ├── README.md
+ - ├── 01-enrollment-configuration/
+ - ├── 02-BYOD-android-enterprise/
+ - ├── 03-DLP-policy/
+ - ├── 04-analog-hole-solutions/
+ - ├── 05-managed-google-play/
+ - ├── 06-dynamic-grouping/
+ - ├── 07-COPE-vs-BYOD/
+  -└── screenshots/
 
 ---
 
