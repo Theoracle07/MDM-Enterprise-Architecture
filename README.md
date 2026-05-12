@@ -142,7 +142,7 @@ MDM-Policy-Implementation/
  - ├── 05-managed-google-play/
  - ├── 06-dynamic-grouping/
  - ├── 07-COPE-vs-BYOD/
-  -└── screenshots/
+ - └── screenshots/
 
 ---
 
@@ -150,4 +150,4 @@ MDM-Policy-Implementation/
 **Jacob John**
 Federal University of Technology Akure (FUTA)
 Aspiring IT Support & SOC Analyst
-[LinkedIn](#)
+[LinkedIn](https://www.linkedin.com/in/john-jacob-689b54334)
