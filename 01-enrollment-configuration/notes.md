@@ -34,6 +34,3 @@ Session management is not just a convenience setting
 it is a Zero Trust security control. Every decision about 
 how long a session lasts directly impacts the blast radius 
 of a stolen credential.
-
-## Screenshots
-[Screenshots](01-enrollment-configuration/Screenshots/) 
