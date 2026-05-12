@@ -142,7 +142,6 @@ MDM-Policy-Implementation/
  - ├── 05-managed-google-play/
  - ├── 06-dynamic-grouping/
  - ├── 07-COPE-vs-BYOD/
- - └── screenshots/
 
 ---
 
