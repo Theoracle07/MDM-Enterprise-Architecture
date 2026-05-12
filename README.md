@@ -71,7 +71,7 @@ can expose an entire organization's data.
 
 ## Critical Problems Solved
 
-### Problem 1 — Data Leakage (DLP)
+### Problem 1: Data Leakage (DLP)
 **Threat:** Employee copies confidential work data and 
 pastes into personal WhatsApp
 
@@ -82,7 +82,7 @@ restrict clipboard sharing between work and personal profiles
 
 ---
 
-### Problem 2 — The Analog Hole
+### Problem 2: The Analog Hole
 **Threat:** Employee photographs screen with a second device
 
 **Solution (3 layers):**
@@ -95,7 +95,7 @@ restrict clipboard sharing between work and personal profiles
 
 ---
 
-### Problem 3 — BYOD vs COPE Camera Control
+### Problem 3: BYOD vs COPE Camera Control
 **Threat:** Employee uses camera to capture sensitive data
 
 **Finding:** BYOD enrollment creates "Profile Owner" status 
