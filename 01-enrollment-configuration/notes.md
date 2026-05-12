@@ -36,4 +36,4 @@ how long a session lasts directly impacts the blast radius
 of a stolen credential.
 
 ## Screenshots
-_Add screenshots here_
+[Screenshots](01-enrollment-configuration/Screenshots) 
