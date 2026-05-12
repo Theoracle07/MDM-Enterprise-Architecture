@@ -41,11 +41,6 @@ exfiltrate data in seconds with no technical trace.
 **With this policy:** Cross-profile data transfer 
 is blocked at OS level. Any attempt is logged.
 
-## Technical Phrasing for Resume/LinkedIn
-*"Configured and deployed Data Loss Prevention (DLP) 
-policies within a BYOD environment to sandbox corporate 
-data and restrict cross-profile data leakage."*
-
 ## Lesson Learned
 DLP is not one setting it is a layered strategy. 
 This clipboard restriction is Layer 1. Without it, 
