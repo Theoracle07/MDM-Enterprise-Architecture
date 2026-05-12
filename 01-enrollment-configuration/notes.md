@@ -35,3 +35,5 @@ it is a Zero Trust security control. Every decision about
 how long a session lasts directly impacts the blast radius 
 of a stolen credential.
 
+## Screenshots
+_Add screenshots here_
