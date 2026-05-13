@@ -1,71 +1,86 @@
-# 06 — Dynamic Grouping & Policy Automation
+# 06 — User Groups & Policy Automation
 
 ## Business Problem
-A company has 500 employees across different 
-departments — Sales, IT, HR, Finance.
+A company has employees across different departments 
+— Sales, IT, HR, Finance.
 
-Each department needs different apps and 
-security policies.
+Each department needs different apps and security 
+policies.
 
-Manually assigning policies to each device 
-one by one is:
+Manually assigning policies to each user one by one is:
 - Time consuming
 - Error prone
 - Unscalable
 
 ## Solution
-Implemented Dynamic Grouping to automate 
-policy deployment based on logic-based criteria.
+Implemented User Groups to automate policy deployment 
+based on department and role.
 
-New devices automatically receive the correct 
-departmental configuration immediately upon 
-enrollment — zero manual IT intervention.
+When a new employee enrolls their device — they are 
+added to their department group and automatically 
+receive the correct apps and security policies 
+immediately. Zero manual IT intervention.
 
-## What Dynamic Grouping Does
-- Automatically assigns devices to groups 
-  based on defined rules
-- Pushes correct apps and policies to each group
-- New enrollments are configured instantly
-- Reduces manual IT overhead significantly
+## What User Groups Enable
+- Automatically assigns policies based on who the 
+  user is — not just what device they have
+- One user can have multiple devices — all receive 
+  the same group policies
+- Department change = update user group = all devices 
+  update automatically
+- Eliminates manual per-device configuration
 
 ## Example Group Structure
 
-| Group | Devices | Apps Pushed | Policies Applied |
+| Group | Users | Apps Pushed | Policies Applied |
 |---|---|---|---|
-| Sales | Sales team phones | CRM, Email, Teams | Standard DLP |
-| IT Admin | IT team devices | Network tools, MDM console | Full access |
-| HR | HR laptops | HRIS, Email | Strict DLP |
-| Finance | Finance devices | Accounting software | Strictest DLP |
+| Sales | Sales staff | CRM, Email, Teams | Standard DLP |
+| IT Admin | IT team | Network tools, MDM console | Full access |
+| HR | HR staff | HRIS, Email | Strict DLP |
+| Finance | Finance staff | Accounting software | Strictest DLP |
 
 ## Implementation Steps
-1. Navigate to **Device Management** → **Groups**
-2. Click **Create Group** → **Dynamic Group**
-3. Define criteria — department, device type, 
-   OS version, enrollment date
-4. Assign apps and profiles to the group
-5. Save — all matching devices auto-assigned
+1. Navigate to **User Management** → **User Groups**
+2. Click **Create Group**
+3. Name the group — example: "Sales Team"
+4. Define membership criteria — department, role
+5. Assign apps and profiles to the group
+6. Add users to the group
+7. All enrolled devices of those users receive 
+   policies automatically
+
+## User Group vs Device Group
+
+| | User Group | Device Group |
+|---|---|---|
+| Based on | Who the person is | What device it is |
+| Best for | Policy by role/department | Policy by device type |
+| Example | All Sales staff get CRM | All iPads get iOS policy |
+| More common in enterprise | ✅ Yes | Situational |
 
 ## Business Impact
-**Without Dynamic Grouping:** IT manually configures 
-each device. One mistake means wrong policies on 
-wrong devices — a security gap.
+**Without User Groups:** IT manually configures each 
+device. One mistake means wrong policies on wrong 
+devices — a security gap.
 
-**With Dynamic Grouping:** Every device gets exactly 
-the right configuration automatically. No human error. 
+**With User Groups:** Every user gets exactly the 
+right configuration automatically regardless of 
+how many devices they enroll. No human error. 
 No delays. No gaps.
 
 ## Technical Phrasing for Resume/LinkedIn
-*"Implemented Dynamic Grouping to automate policy 
-deployment. Logic-based criteria ensure new devices 
-receive departmental security configurations and 
-application suites immediately upon enrollment, 
-reducing manual IT overhead."*
+*"Implemented User Group based policy automation 
+to ensure new employees receive departmental 
+security configurations and application suites 
+immediately upon enrollment, reducing manual 
+IT overhead and eliminating configuration errors."*
 
 ## Lesson Learned
-Automation in IT security is not laziness — 
-it is risk reduction. Every manual step is a 
-potential human error. Dynamic Grouping removes 
-the human from repetitive configuration tasks, 
-making the environment more secure and consistent.
+Policies should follow the user — not the device. 
+A salesperson can have a phone, a tablet and a 
+laptop. Managing three separate devices manually 
+is three times the work and three times the risk 
+of error.
 
-This is the foundation of scalable IT operations.
+User Groups make security scalable. That is the 
+foundation of enterprise IT operations.
