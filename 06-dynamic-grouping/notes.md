@@ -68,13 +68,6 @@ right configuration automatically regardless of
 how many devices they enroll. No human error. 
 No delays. No gaps.
 
-## Technical Phrasing for Resume/LinkedIn
-*"Implemented User Group based policy automation 
-to ensure new employees receive departmental 
-security configurations and application suites 
-immediately upon enrollment, reducing manual 
-IT overhead and eliminating configuration errors."*
-
 ## Lesson Learned
 Policies should follow the user — not the device. 
 A salesperson can have a phone, a tablet and a 
